@@ -1,0 +1,41 @@
+/*  
+GUMDROP FRAMEWORK VERSION 4.0 - 2016
+CREATED BY ANGEL RAMIREZ
+
+THIS FRAMEWORK IS FREE TO USE WITHOUT PRIOR PERMISSION, HOWEVER, THE CREATOR (NOTED ON LINE 2) DOES NOT TAKE RESPONSIBILITY
+FOR ANY DAMAGES OR ISSUES THAT ARISE FROM USING THIS FRAMEWORK. REFER TO SOURCE CODE FOUND ON THE GUMDROP SITE DOCUMENTATION TO
+FIGURE OUT HOW TO IMPLEMENT GUMDROP ON YOUR BAREBONES HTML FILES.
+
+WEBSITES UPGRADING FROM GUMDROP VERSION 2 WILL REQUIRE SOME MODIFICATION AS GUMDROP 3 IS USING A NEW RESET STYLESHEET, IF YOU
+WISH TO AVOID THIS HASSLE, DOWNLOAD THE GUMDROP SCSS FILES AND USE YOUR OWN RESET (OR THE PREVIOUS ONE "NORMALIZE").
+
+PLEASE NOTE THAT GUMDROP IS BUILT TO BE MOBILE FIRST, MAKE SURE TO TARGET SMALL DEVICES IN THE PARTIAL FILES (DENOTED WITH _ )
+AND ALL OTHER MEDIA QUERIES GO INTO "_RESPONSIVE" (THESE ARE FOR TABLETS, LAPTOPS, AND DESKTOPS).
+*/
+//
+//PARTIAL IMPORTS
+@import 'fonts';
+@import 'variables'; // This contains all the colors and "default" values found in throughout GumDrop
+@import 'reset'; // This is the new reset stylesheet - also includes Google Fonts and Font Awesome
+//
+// BEGIN FRAMEWORK
+/* This contains typography and padding for various html tags */
+@import 'base';
+//
+/* This contains styles, typography, and padding for GumDrop buttons */
+@import 'buttons';
+//
+/* This is the grid for GumDrop */
+@import 'grid';
+//
+/* This contains "default" navbar styles (now uses .nav class) */
+@import 'navbar';
+//
+/* This contains styles, typography, and padding for GumDrop cards */
+@import 'cards';
+//
+/* This contains styles, typography, and padding for GumDrop forms and inputs */
+@import 'forms';
+//
+/* This contains all responsive code for all GumDrop components */
+@import 'responsive';

@@ -1,0 +1,82 @@
+/* Colors */
+.default {
+    background: $color-default;
+}
+
+.primary {
+    background: $color-primary;
+}
+
+.secondary {
+    background: $color-second;
+}
+
+.info {
+    background: $color-third;
+}
+
+.success {
+    background: $color-fourth;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-major;
+    padding: 0.125em 0;
+}
+
+h1 {
+    font-size: 2.2em;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.125em;
+}
+
+h3 {
+    font-size: 1.8em;
+    line-height: 1.125em;
+}
+
+h4 {
+    font-size: 1.6em;
+    line-height: 1.125em;
+}
+
+h5 {
+    font-size: 1.4em;
+    line-height: 1.125em;
+}
+
+h6 {
+    font-size: 1.2em;
+    line-height: 1.125em;
+}
+
+/* Body Copy */
+
+p {
+    line-height: 1.456em;
+    text-align: justify;
+}
+
+/* Anchors */
+
+a {
+    color: $color-primary;
+}
+
+a:hover {
+    color: $hover-primary;
+}
+
+a:focus {
+    text-decoration: underline;
+}

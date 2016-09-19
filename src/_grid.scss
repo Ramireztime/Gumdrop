@@ -1,0 +1,19 @@
+// Class "row" allows for columns of 'grid' components to be formed
+/* Mobile first grid */
+.row {
+    display: block;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+// By default, these grid elements are 100% width (mobile first)
+.grid-12,
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-6,
+.grid-8 {
+    width: 100%;
+    margin: 0 auto !important;
+}

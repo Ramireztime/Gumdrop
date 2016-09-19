@@ -1,0 +1,36 @@
+.nav {
+    padding: 1em;
+    box-shadow: $drop-shadow;
+    z-index: 1000;
+}
+.nav a {
+    color: $gray-dark;
+    font-family: $font-minor;
+    font-size: 1.125em;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+.nav a:hover {
+    background-color: $hover-primary;
+    color: #EDEDED;
+}
+.nav #toggle-nav {
+    font-family: $font-major;
+    text-transform: uppercase;
+    padding: 1px;
+    font-size: 1em;
+    margin: 5px !important;
+    text-align: left;
+    cursor: pointer;
+}
+.nav #toggle-nav:hover {
+    background-color: transparent;
+    color: $hover-primary;
+}
+.nav #menu {
+    margin-top: 10px;
+    display: none;
+}

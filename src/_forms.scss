@@ -1,0 +1,92 @@
+.form-group,
+.form-group-radio,
+.form-group-checkbox {
+    margin: 8px 0 10px 0;
+}
+
+.form-group-radio label,
+.form-group-checkbox label {
+    font-family: $font-minor;
+}
+
+.form-control {
+    min-width: 100%;
+}
+
+input,
+textarea,
+select {
+    background-color: $color-default;
+    margin-top: 0.45em;
+    display: block;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+    box-shadow: none;
+    background-color: transparent;
+    display: inline;
+}
+
+input[type='checkbox']:focus,
+input[type='radio']:focus {
+    outline: 2px solid $win-accent !important;
+}
+
+input[type='submit'],
+input[type='reset'] {
+    display: inline-block;
+    font-family: $font-major;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='password'],
+textarea,
+select {
+    box-shadow: $drop-shadow;
+    border: none;
+    font-family: $font-minor;
+    font-size: 1em;
+    color: $gray-dark;
+    padding: 0.9em 0.85em;
+}
+
+select {
+    padding: 0.83em 0.85em !important;
+    box-shadow: $drop-shadow;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+textarea:focus,
+select:focus {
+    background-color: #FFFFFF;
+    transition: $ani-default;
+    -webkit-outline: 2px solid $color-third;
+       -moz-outline: 2px solid $color-third;          
+        -ms-outline: 2px solid $win-accent; 
+         -o-outline: 2px solid $color-third; 
+            outline: 2px solid $win-accent; 
+}
+
+textarea {
+    overflow-y: scroll;
+    word-wrap: normal;
+    min-height: 5em;
+}
+
+label,
+fieldset {
+    font-family: $font-major;
+}
+
+fieldset {
+    margin-top: 0.4em;
+}

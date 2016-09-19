@@ -1,0 +1,118 @@
+input[type=submit],
+input[type=reset],
+button,
+.btn {
+    padding: $btn-padding-y-lg $btn-padding-x-lg; //padding: 1.35em 1.5em;
+    text-align: center;
+    color: $color-dark;
+    display: inline-block;
+    margin: 0.2em 0;
+    line-height: 0;
+    font-family: $font-major;
+    font-size: 0.965em;
+    font-weight: $btn-font-weight;
+    box-shadow: $drop-shadow;
+    transition: color $ani-default, background $ani-default;
+    border-radius: $btn-border-radius;
+}
+
+input[type=submit]:focus,
+input[type=reset]:focus,
+button:focus,
+.btn:focus {
+    outline: 2px $color-dark dashed;
+    text-decoration: none;
+}
+
+.btn-default {
+    background: $color-default;
+}
+
+.btn-default:hover {
+    color: $hover-default;
+    background: $color-dark;
+}
+
+.btn-primary {
+    background: $color-primary;
+}
+
+.btn-primary:hover {
+    color: #EDEDED;
+    background: $color-dark;
+}
+
+.btn-secondary {
+    background: $color-second;
+}
+
+.btn-secondary:hover {
+    color: #EDEDED;
+    background: $hover-second;
+}
+
+.btn-info {
+    background: $color-third;
+}
+
+.btn-info:hover {
+    color: #EDEDED;
+    background: $hover-third;
+}
+
+.btn-success {
+    background: $color-fourth;
+}
+
+.btn-success:hover {
+    color: #EDEDED;
+    background: $hover-fourth;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-fblock {
+    width: 100%;
+}
+
+.btn-group {
+    margin-top: 0.5em;
+}
+
+/* Shared Styles */
+.action-pill,
+.action-bub {
+    box-shadow: $drop-shadow;
+    color: $color-dark;
+    line-height: 0;
+    transition: color $ani-default, background $ani-default;
+    display: inline-block;
+}
+
+.action-pill:focus,
+.action-bub:focus {
+    border: 2px $color-dark dashed;
+    text-decoration: none;
+}
+
+/* action pills */
+.action-pill {
+    padding: 1.2em 2em;
+    text-align: center;
+    margin: 0.2em 0;
+    border-radius: 1.6em;
+    font-family: $font-major;
+    font-weight: bold;
+}
+
+/* action buttons */
+.action-bub {
+    border-radius: 10px;
+    padding: 1em 1.1em;
+}
+
+.action-bub:hover {
+    color: #EDEDED !important;
+}

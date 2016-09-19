@@ -1,0 +1,49 @@
+// GumDrop Brand Colors
+$color-default:             #F9F9F9;
+$color-primary:             #FDBE55;
+$color-second:              #DC504A;
+$color-third:               #4092AD;
+$color-fourth:              #50B55C;
+
+$color-dark:                #1E1E1E;
+
+// Default Grays for GumDrop
+$gray-dark:                 #373a3c !default;
+$gray:                      #55595c !default;
+$gray-light:                #818a91 !default;
+$gray-lighter:              #eceeef !default;
+$gray-lightest:             #f7f7f9 !default;
+
+// Hover states
+$hover-default:               darken($color-default, 8%);
+$hover-primary:               darken($color-primary, 8%);
+$hover-second:                darken($color-second, 5%);
+$hover-third:                 darken($color-third, 8%);
+$hover-fourth:                darken($color-fourth, 8%);
+
+// Components
+$drop-shadow:                 0px 1px 0px 1px rgba(0, 0, 0, 0.12); //0 1px 1px 1px rgba(0, 0, 0, 0.12);
+$win-accent:                  Highlight;
+$border-radius:               0;
+
+// Typography
+$font-major:                 "Aleo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-minor:                 Segoe UI, Frutiger, Frutiger Linotype, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Anchors.
+$link-color:                 darken($color-primary, 10%) !default;
+$link-hover-color:           darken($link-color, 15%) !default;
+
+// Buttons
+$btn-padding-x:              1.2rem !default;
+$btn-padding-y:              1.4rem !default;
+$btn-font-weight:            500 !default;
+
+$btn-padding-x-lg:              1.2rem !default;
+$btn-padding-y-lg:              1.8rem !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius:          $border-radius !default;
+
+// Animations
+$ani-default:                .3s;

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Gumdrop v4.0 | Grid</title>
+
+    <!-- This is the Gumdrop stylesheet, it requires that it be located at the top of your document.
+    You can load additional stylesheets below it to manipulate Gumdrop or add your own CSS. -->
+    <link rel="stylesheet" href="assets/css/gumdrop-base.css"/>
+    <link rel="stylesheet" href="assets/css/documentation.css"/>
+
+</head>
+<body>
+    
+    <header id="site-header">
+        <nav class="nav default">
+            <a id="toggle-nav" onclick="toggle_visibility('menu');" title="Menu"><i class="fa fa-bars"></i> Menu</a>
+            <div id="menu">
+                <a href="index.html" title="Home">Home</a>
+                <a href="base.html" title="Base">Base</a>
+                <a href="grid.html" title="Grid">Grid</a>
+                <a href="input.html" title="Inputs, Buttons, Forms">Input</a>
+                <a href="components.html" title="Components">Components</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-min">
+        <div class="container">
+            <!--<p class="hero-logo">
+            <img src="assets/img/logo.svg" alt="Gumdrop logo with animated pulse background."/>
+            </p>-->
+            <div class="hero-text">
+                <h1>Grid</h1>
+                <p>flexbox ftw!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="default section-spacer">
+        <div class="container">
+            <div class="row">
+                <div class="grid-8">
+                    <h1>Typography</h1>
+                    <p>These elements are all styled using Aleo and the browser's default sans serif typeface.</p>
+                    <h1>Heading level 1</h1>
+                    <h2>Heading level 2</h2>
+                    <h3>Heading level 3</h3>
+                    <h4>Heading level 4</h4>
+                    <h5>Heading level 5</h5>
+                    <h6>Heading level 6</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus dignissim magna porttitor convallis. Aliquam faucibus lorem eget malesuada sollicitudin. Nam et lorem lobortis, congue lacus non, elementum lacus. Duis convallis lorem metus, in aliquet mi ultricies vel. Nulla accumsan pellentesque dui vitae malesuada. Praesent a ante et urna tempus dapibus in vitae enim. Aenean porta ipsum eget libero suscipit, tempus tempor neque hendrerit.</p>
+                    <p><em>This is a default anchor style. You are able to change it with an overwrite as well.</em></p>
+                    <a href="#" title="example link">Click me I'm Irish</a>
+                    <p>This a link in a p tag, <a href="#" title="example link">Hello there</a> Gumdrop!</p>
+                </div>
+                <div class="grid-4">
+                    <div class="card info">
+                        <div class="content">
+                            <h4>Plain HTML</h4>
+                            <p>These styles are automatically applied to your sites without changing anything. Padding and alignment is dependant on how your existing code is laid out.</p>
+                        </div>
+                    </div>
+                    <div class="card default">
+                        <div class="content">
+                            <h4>Code Snippets</h4>
+                            <p>These styles are automatically applied to your sites without changing anything. Padding and alignment is dependant on how your existing code is laid out.</p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-primary btn-fblock" title="Download code snippets for base styles">Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="decorative-spacer"></div>
+
+    <section class="default section-spacer">
+        <div class="container">
+            <div class="row">
+                <div class="grid-8">
+                    <h1>Colors</h1>
+                    <p>Keep in mind that GumDrop is in development, so this list is subject to change. GumDrop is forward compabible so you sites will look great with newer version of GumDrop with minimal code changes.</p>
+                    <div class="row">
+                        <div class="grid-12">
+                            <span class="square default">"Marshmallow"</span>
+                            <strong>.default</strong>
+                        </div>
+                        <div class="grid-12">
+                            <span class="square primary">"Honey"</span>
+                            <strong>.primary</strong>
+                        </div>
+                        <div class="grid-12">
+                            <span class="square secondary">"Strawberry"</span>
+                            <strong>.secondary</strong>
+                        </div>
+                        <div class="grid-12">
+                            <span class="square info">"Blueberry"</span>
+                            <strong>.info</strong>
+                        </div>
+                        <div class="grid-12">
+                            <span class="square success">"Avocado"</span>
+                            <strong>.success</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-4">
+                    <h1>Helper classes</h1>
+                    <p>GumDrop supports responsive images by using the "img-responsive" class within your "img" tags. Resize the window to see it in action.</p>
+                    <img src="https://thedogwhispererofmn.files.wordpress.com/2013/02/boxer-puppy.jpg" class="img-responsive" alt="responsive image demo"/>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="site-footer">
+        <p>copyright 2016 | ANGEL</p>
+    </footer>
+
+    <!-- This is the Gumdrop JavaScript file. It is required for use of Navbar component. Please note however,
+    that it does NOT include (nor require) JQuery. You can however choose to load it on your project :) -->
+    <script src="assets/js/gumdrop.js"></script>
+</body>
+</html>

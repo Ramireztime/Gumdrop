@@ -1,0 +1,105 @@
+/* THE MEDEA QUERIES BELOW ARE FOR TABLETS, LAPTOPS, AND DESKTOPS */
+/*Medium screens */
+@media all and (min-width: 768px) {
+    .row {
+        display: flex;
+        box-sizing: border-box;
+    }
+    /* Gutters */
+    [class*='grid-'] {
+        padding-right: 0.4em !important;
+        box-sizing: border-box;
+    }
+    [class*='grid-']:last-of-type {
+        padding-right: 0;
+    }
+    /* Grid */
+    .grid-1 {
+        width: 8%;
+    }
+    .grid-2 {
+        width: 16.6%;
+    }
+    .grid-3 {
+        width: 25%;
+    }
+    .grid-4 {
+        width: 33.3%;
+    }
+    .grid-6 {
+        width: 50%;
+    }
+    .grid-8 {
+        width: 66.7%;
+    }
+
+    .btn-block {
+        width: auto;
+        text-align: center;
+    }
+    p {
+        text-align: left;
+    }
+    
+    .nav a {
+        margin: 0;
+        padding: 5px 8px 0 5px;
+        text-align: left;
+        display: inline;
+    }
+    .nav a:hover {
+        background-color: transparent;
+        color: $hover-primary;
+    }
+    .nav #toggle-nav {
+        text-transform: uppercase;
+        padding: 1px;
+    }
+    .nav #toggle-nav:hover {
+        background-color: transparent;
+        color: $hover-primary;
+    }
+}
+
+/* Toggle Menu Fix */
+@media all and (min-width: 899px) {
+    .nav #menu {
+        display: inline !important;
+        visibility: visible !important;
+    }
+}
+
+@media all and (min-width: 901px) {
+    .nav #menu {
+        display: inline !important;
+        visibility: visible !important;
+    }
+}
+
+/* Desktop and beyond */
+@media all and (min-width: 900px) {
+    /* NAV BASE */
+    .nav {
+        padding: 1em;
+        z-index: 1;
+    }
+    .nav a {
+        display: inline;
+        font-size: 1rem;
+    }
+    .nav #toggle-nav {
+        display: none !important;
+        visibility: hidden !important;
+    }
+    .nav #menu {
+        display: inline;
+        visibility: visible !important;
+    }
+
+    input[type=submit],
+    input[type=reset],
+    button,
+    .btn {
+        padding: $btn-padding-y $btn-padding-x;
+    }
+}
