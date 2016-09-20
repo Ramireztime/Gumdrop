@@ -389,12 +389,20 @@ button:focus,
 }
 
 .grid-12,
-.grid-1,
-.grid-2,
-.grid-3,
-.grid-4,
+.grid-10,
+.grid-8,
 .grid-6,
-.grid-8 {
+.grid-4,
+.grid-3,
+.grid-2,
+.grid,
+.lg-6,
+.lg-4,
+.lg-2,
+.md-10,
+.md-9,
+.md-3,
+.md-2 {
   width: 100%;
   margin: 0 auto !important;
 }
@@ -592,10 +600,9 @@ fieldset {
   }
 
   /* Grid */
-  .grid-1 {
-    width: 8%;
-  }
-
+  /*.grid-1 { DEPRECATED
+      width: 8%;
+  }*/
   .grid-2 {
     width: 16.6%;
   }

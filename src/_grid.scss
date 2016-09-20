@@ -8,12 +8,20 @@
 
 // By default, these grid elements are 100% width (mobile first)
 .grid-12,
-.grid-1,
-.grid-2,
-.grid-3,
-.grid-4,
+.grid-10,
+.grid-8,
 .grid-6,
-.grid-8 {
+.grid-4,
+.grid-3,
+.grid-2,
+.grid,
+.lg-6,
+.lg-4,
+.lg-2,
+.md-10,
+.md-9,
+.md-3,
+.md-2 {
     width: 100%;
     margin: 0 auto !important;
 }
