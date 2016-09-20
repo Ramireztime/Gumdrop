@@ -10,9 +10,52 @@
     <!-- This is the Gumdrop stylesheet, it requires that it be located at the top of your document.
     You can load additional stylesheets below it to manipulate Gumdrop or add your own CSS. -->
     <link rel="stylesheet" href="../src/gumdrop-base.css"/>
+    <style>
+        .vis,
+        .vis-alt {
+            padding: 2em;
+            margin-top: 8px !important;
+        }
+        .vis {
+            background: #DDD;
+        }
+        .vis-alt {
+            background: #BBB;
+        }
+    </style>
 
 </head>
 <body>
-    <h1>Hello World</h1>
+
+    <div class="container">
+        <h1>Hello World</h1>
+        <p>ignore "vis" and "vis-alt" classes as they only give the grid extra padding and color for visibility.</p>
+
+        <!-- ignore "vis" and "vis-alt" classes as they only give the grid extra padding and color for visibility -->
+        <div class="row">
+            <div class="md-2 grid-4 vis"><p>md-2 and grid-4</p></div>
+            <div class="md-4 grid-4 vis-alt"><p>md-4 and grid-4</p></div>
+            <div class="md-6 grid-4 vis"><p>md-6 and grid-4</p></div>
+        </div>
+        <div class="row">
+            <div class="md-4 grid-6 vis"><p>md-4 and grid-6</p></div>
+            <div class="md-8 grid-6 vis-alt"><p>md-8 and grid-6</p></div>
+        </div>
+        <div class="row">
+            <div class="md-2 grid-4 vis"><p>md-2 and grid-4</p></div>
+            <div class="md-8 grid-4 vis-alt"><p>md-8 and grid-4</p></div>
+            <div class="md-2 grid-4 vis"><p>md-2 and grid-4</p></div>
+        </div>
+        <div class="row">
+            <div class="md-3 grid-2 vis"><p>md-3 and grid-2</p></div>
+            <div class="md-9 grid-10 vis-alt"><p>md-9 and grid-10</p></div>
+        </div>
+        <div class="row">
+            <div class="md-6 grid-6 vis"><p>md-6 and grid-6</p></div>
+            <div class="md-6 grid-6 vis-alt"><p>md-6 and grid-6</p></div>
+        </div>
+
+    </div>
+
 </body>
 </html>
