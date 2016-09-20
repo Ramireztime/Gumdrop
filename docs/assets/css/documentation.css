@@ -68,10 +68,42 @@ body {
     margin: 0.5em 0;
 }
 
+.vis,
+.vis-alt {
+    padding: 2em;
+    margin-top: 8px !important;
+}
+.vis {
+    background: #DDD;
+}
+.vis-alt {
+    background: #BBB;
+}
+
+pre {
+    font-size: 80%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.code-tag {
+    color: darkslategray;
+}
+
+.code-name {
+    color: blue;
+}
+
+.code-attr {
+    color: cadetblue;
+}
+
+.code-string {
+    color: tomato;
+}
+
 @media all and (min-width: 900px){
-    .section-spacer p {
-        padding-right: 0.5em;
-    }
+
 }
 
 /** {

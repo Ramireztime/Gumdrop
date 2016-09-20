@@ -200,6 +200,11 @@ li {
   background: #50B55C;
 }
 
+.inverse {
+  background: #1E1E1E;
+  color: #F9F9F9;
+}
+
 /* Headings */
 h1,
 h2,
@@ -454,7 +459,7 @@ button:focus,
 .card {
   /* Base Card */
   box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.12);
-  margin: 5px 0;
+  margin: 0.5em 0;
 }
 
 .card header {
@@ -465,7 +470,7 @@ button:focus,
 
 .card .content {
   /* Sets padding for inside card */
-  padding: 10px 15px;
+  padding: 0.8em 1.4em;
   box-sizing: border-box;
 }
 
@@ -484,6 +489,7 @@ button:focus,
 
 .card p {
   padding: 0 0 0.8em 0;
+  text-align: justify;
 }
 
 /* This contains styles, typography, and padding for GumDrop forms and inputs */
@@ -587,22 +593,25 @@ fieldset {
   .row {
     display: flex;
     box-sizing: border-box;
+    margin: 0 -0.6em;
   }
 
   /* Gutters */
-  [class*='grid-'] {
-    padding-right: 0.5em !important;
-    box-sizing: border-box;
+  /*[class*='grid-'] {
+      padding-right: 0.4em;
+      box-sizing: border-box;
   }
-
   [class*='grid-']:last-of-type {
-    padding-right: 0;
-  }
-
+      padding-right: 0 !important;
+  }*/
   /* Grid */
   /*.grid-1 { DEPRECATED
       width: 8%;
   }*/
+  [class*='grid-'] {
+    padding: 0 0.6em;
+  }
+
   .md-2 {
     width: 16.65%;
   }
@@ -677,16 +686,6 @@ fieldset {
 }
 /* Desktop and beyond */
 @media all and (min-width: 900px) {
-  /* Gutters */
-  [class*='grid-'] {
-    padding-right: 0.5em !important;
-    box-sizing: border-box;
-  }
-
-  [class*='grid-']:last-of-type {
-    padding-right: 0;
-  }
-
   .grid-2 {
     width: 16.6%;
   }
@@ -696,7 +695,7 @@ fieldset {
   }
 
   .grid-4 {
-    width: 33.33%;
+    width: 33.3%;
   }
 
   .grid-6 {
