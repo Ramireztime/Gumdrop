@@ -131,40 +131,133 @@
 
     <section class="default section-spacer">
         <div class="container">
+            <h1>Cards</h1>
+
+            <p>Cards are special 'panels' that give you a way to organize data, people, and things. They include basic style, which
+                can be overwritten.</p>
+
+            <!-- Single Card -->
             <div class="row">
-                <div class="grid-8">
-                    <h1>Colors</h1>
-                    <p>Keep in mind that GumDrop is in development, so this list is subject to change. GumDrop is forward compabible so you sites will look great with newer version of GumDrop with minimal code changes.</p>
-                    <div class="row">
-                        <div class="grid-12">
-                            <span class="square default">"Marshmallow"</span>
-                            <strong>.default</strong>
+                <div class="grid-12">
+                    <div class="card default">
+                        <div class="content">
+                            <h1>cardName</h1>
+                            <p>this is some text for internal card use.</p>
                         </div>
-                        <div class="grid-12">
-                            <span class="square primary">"Honey"</span>
-                            <strong>.primary</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Double Cards -->
+            <div class="row">
+                <div class="grid-6">
+                    <div class="card default">
+                        <div class="content">
+                            <h1>cardName</h1>
+                            <p>this is some text for internal card use.</p>
                         </div>
-                        <div class="grid-12">
-                            <span class="square secondary">"Strawberry"</span>
-                            <strong>.secondary</strong>
+                    </div>
+                </div>
+                <div class="grid-6">
+                    <div class="card default">
+                        <div class="content">
+                            <h1>cardName</h1>
+                            <p>this is some text for internal card use.</p>
                         </div>
-                        <div class="grid-12">
-                            <span class="square info">"Blueberry"</span>
-                            <strong>.info</strong>
-                        </div>
-                        <div class="grid-12">
-                            <span class="square success">"Avocado"</span>
-                            <strong>.success</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Triple Cards -->
+            <div class="row">
+                <div class="grid-4">
+                    <div class="card default">
+                        <div class="content">
+                            <h1>cardName</h1>
+                            <p>this is some text for internal card use.</p>
                         </div>
                     </div>
                 </div>
                 <div class="grid-4">
-                    <h1>Helper classes</h1>
-                    <p>GumDrop supports responsive images by using the "img-responsive" class within your "img" tags. Resize the window to see it in action.</p>
-                    <img src="https://thedogwhispererofmn.files.wordpress.com/2013/02/boxer-puppy.jpg" class="img-responsive" alt="responsive image demo"/>
+                    <div class="card default">
+                        <div class="content">
+                            <h1>cardName</h1>
+                            <p>this is some text for internal card use.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-4">
+                    <div class="card default">
+                        <div class="content">
+                            <h1>cardName</h1>
+                            <p>this is some text for internal card use.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        
+            <hr>
+            <p><em class="small">Cards can also utilize colors, these are available by default</em></p>
+
+            <!-- Triple Cards (mixin) -->
+            <div class="row">
+                <div class="grid-4">
+                    <div class="card primary">
+                        <div class="content">
+                            <h1>Primary Color</h1>
+                            <p>Use ".primary" for this color</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-4">
+                    <div class="card secondary">
+                        <div class="content">
+                            <h1>Secondary Color</h1>
+                            <p>Use ".secondary" for this color</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-4">
+                    <div class="card info">
+                        <div class="content">
+                            <h1>Info Card</h1>
+                            <p>Use ".info" for this color</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Card examples</h3>
+
+            <p>These are examples of how you can combine GumDrop styles with cards. You can of course extend these stlyes and make
+                your own unique cards.</p>
+
+            <!-- Styled Cards -->
+            <div class="row">
+                <div class="grid-6">
+                    <div class="card default">
+                        <div class="content">
+                            <h1 class="info-text">An error occured</h1>
+                            <p>We were unable to connect to the servers.</p>
+                            <a href="#" class="btn btn-fblock btn-info" title="primary button">try again</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-6">
+                    <div class="card info">
+                        <div class="content">
+                            <h1>Status Update</h1>
+                            <form>
+                                <div class="form-group">
+                                    <textarea class="form-control" type="text" placeholder="This is a textarea..." name="firstname"></textarea>
+                                </div>
+                                <input type="submit" class="btn btn-default" value="submit" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
