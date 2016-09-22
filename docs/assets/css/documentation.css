@@ -11,7 +11,7 @@
 
 body {
     -webkit-background: #1E1E1E !important;
-    background: url('../img/hero-bg.jpg') fixed #1E1E1E;
+    background: url('../img/bg.svg') fixed #1E1E1E;
     background-size: cover;
     background-position: top left;
 }
