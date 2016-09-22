@@ -48,7 +48,7 @@ input[type='url'],
 input[type='password'],
 textarea,
 select {
-    box-shadow: $drop-shadow;
+    box-shadow: $drop-shadow-lg;
     border: none;
     font-family: $font-minor;
     font-size: 1em;
@@ -58,7 +58,7 @@ select {
 
 select {
     padding: 0.83em 0.85em !important;
-    box-shadow: $drop-shadow;
+    box-shadow: $drop-shadow-lg;
 }
 
 input[type='text']:focus,
