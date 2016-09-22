@@ -17,7 +17,7 @@
     
     <header id="site-header">
         <nav class="nav default">
-            <a id="toggle-nav" onclick="toggle_visibility('menu');" title="Menu"><i class="fa fa-bars"></i> Menu</a>
+            <a id="toggle-nav" onclick="toggle_visibility('menu');" href="#" title="Menu"><i class="fa fa-bars"></i> Menu</a>
             <div id="menu">
                 <a href="index.html" title="Home">Home</a>
                 <a href="base.html" title="Base">Base</a>
@@ -45,17 +45,65 @@
             <div class="row">
                 <div class="grid-8">
                     <h1>Typography</h1>
-                    <p>These elements are all styled using Aleo and the browser's default sans serif typeface.</p>
-                    <h1>Heading level 1</h1>
-                    <h2>Heading level 2</h2>
-                    <h3>Heading level 3</h3>
-                    <h4>Heading level 4</h4>
-                    <h5>Heading level 5</h5>
-                    <h6>Heading level 6</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus dignissim magna porttitor convallis. Aliquam faucibus lorem eget malesuada sollicitudin. Nam et lorem lobortis, congue lacus non, elementum lacus. Duis convallis lorem metus, in aliquet mi ultricies vel. Nulla accumsan pellentesque dui vitae malesuada. Praesent a ante et urna tempus dapibus in vitae enim. Aenean porta ipsum eget libero suscipit, tempus tempor neque hendrerit.</p>
-                    <p><em>This is a default anchor style. You are able to change it with an overwrite as well.</em></p>
-                    <a href="#" title="example link">Click me I'm Irish</a>
-                    <p>This a link in a p tag, <a href="#" title="example link">Hello there</a> Gumdrop!</p>
+
+						<p>Navbars are pretty common, so GumDrop includes barebones sytles for your navigation bars. You will need to apply a
+							"default" class to your nav for it to take effect. You will need a bit more to make it a "collapsible navbar" but
+							it's not too complicated. You can also use GumDrop's colors on the navbars, but you must pay attention to the hover
+							styles.</p>
+
+						<div id="nav-demo">
+							<em class="small">"Default" Navbar</em>
+							<br>
+							<nav class="nav default">
+								<a href="#" title="link">Home</a>
+								<a href="#" title="link">Folio</a>
+								<a href="#" title="link">Blog</a>
+								<a href="#" title="link">Contact</a>
+							</nav>
+
+							<em class="small">Collapsed Navbar</em>
+							<br>
+							<nav class="nav default">
+								<a id="toggle-nav2" onclick="toggle_visibility('menu2');" title="Menu"><i class="fa fa-bars"></i> Menu</a>
+								<div id="menu2">
+									<a href="#" title="link">Home</a>
+									<a href="#" title="link">Folio</a>
+									<a href="#" title="link">Blog</a>
+									<a href="#" title="link">Contact</a>
+								</div>
+							</nav>
+
+							<hr>
+
+							<em class="small">"Honey" Navbar</em>
+							<br>
+							<nav class="nav primary">
+								<a href="#" title="link">Home</a>
+								<a href="#" title="link">Folio</a>
+								<a href="#" title="link">Blog</a>
+								<a href="#" title="link">Contact</a>
+							</nav>
+
+							<em class="small">"Tomato" Navbar</em>
+							<br>
+							<nav class="nav secondary">
+								<a href="#" title="link">Home</a>
+								<a href="#" title="link">Folio</a>
+								<a href="#" title="link">Blog</a>
+								<a href="#" title="link">Contact</a>
+							</nav>
+
+							<em class="small">"Cadet Blue" Navbar</em>
+							<br>
+							<nav class="nav info">
+								<a href="#" title="link">Home</a>
+								<a href="#" title="link">Folio</a>
+								<a href="#" title="link">Blog</a>
+								<a href="#" title="link">Contact</a>
+							</nav>
+
+						</div>
+
                 </div>
                 <div class="grid-4">
                     <div class="card info">

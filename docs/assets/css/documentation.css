@@ -82,26 +82,13 @@ body {
     background: #BBB;
 }
 
-pre {
-    font-size: 80%;
-    overflow-x: auto;
-    overflow-y: hidden;
+nav #toggle-nav2 {
+    font-weight: bold;
+    text-transform: uppercase;
 }
-
-.code-tag {
-    color: darkslategray;
-}
-
-.code-name {
-    color: blue;
-}
-
-.code-attr {
-    color: cadetblue;
-}
-
-.code-string {
-    color: tomato;
+nav #menu2 {
+    margin-top: 10px;
+    display: none;
 }
 
 @media all and (min-width: 900px){
