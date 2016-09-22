@@ -44,33 +44,14 @@
         <div class="container">
             <div class="row">
                 <div class="grid-8">
-                    <h1>Typography</h1>
-                    <p>These elements are all styled using Aleo and the browser's default sans serif typeface.</p>
-                    <h1>Heading level 1</h1>
-                    <h2>Heading level 2</h2>
-                    <h3>Heading level 3</h3>
-                    <h4>Heading level 4</h4>
-                    <h5>Heading level 5</h5>
-                    <h6>Heading level 6</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi cursus dignissim magna porttitor convallis. Aliquam faucibus lorem eget malesuada sollicitudin. Nam et lorem lobortis, congue lacus non, elementum lacus. Duis convallis lorem metus, in aliquet mi ultricies vel. Nulla accumsan pellentesque dui vitae malesuada. Praesent a ante et urna tempus dapibus in vitae enim. Aenean porta ipsum eget libero suscipit, tempus tempor neque hendrerit.</p>
-                    <p><em>This is a default anchor style. You are able to change it with an overwrite as well.</em></p>
-                    <a href="#" title="example link">Click me I'm Irish</a>
-                    <p>This a link in a p tag, <a href="#" title="example link">Hello there</a> Gumdrop!</p>
+                    <h1>Overview</h1>
+                    <p>Gumdrop comes with various classes for buttons and comes with stylized input forms that scale well on mobile devices and retina screens. Below are example forms and button layouts that can be accomplished with Gumdrop. Icons are from the FontAwesome kit, which is included.</p>
                 </div>
                 <div class="grid-4">
                     <div class="card info">
                         <div class="content">
                             <h4>Plain HTML</h4>
                             <p>These styles are automatically applied to your sites without changing anything. Padding and alignment is dependant on how your existing code is laid out.</p>
-                        </div>
-                    </div>
-                    <div class="card default">
-                        <div class="content">
-                            <h4>Code Snippets</h4>
-                            <p>These styles are automatically applied to your sites without changing anything. Padding and alignment is dependant on how your existing code is laid out.</p>
-                            <div class="btn-group">
-                                <a href="#" class="btn btn-primary btn-fblock" title="Download code snippets for base styles">Download</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -85,35 +66,136 @@
         <div class="container">
             <div class="row">
                 <div class="grid-8">
-                    <h1>Colors</h1>
+                    <h1>Buttons</h1>
                     <p>Keep in mind that GumDrop is in development, so this list is subject to change. GumDrop is forward compabible so you sites will look great with newer version of GumDrop with minimal code changes.</p>
-                    <div class="row">
-                        <div class="grid-12">
-                            <span class="square default">"Marshmallow"</span>
-                            <strong>.default</strong>
-                        </div>
-                        <div class="grid-12">
-                            <span class="square primary">"Honey"</span>
-                            <strong>.primary</strong>
-                        </div>
-                        <div class="grid-12">
-                            <span class="square secondary">"Strawberry"</span>
-                            <strong>.secondary</strong>
-                        </div>
-                        <div class="grid-12">
-                            <span class="square info">"Blueberry"</span>
-                            <strong>.info</strong>
-                        </div>
-                        <div class="grid-12">
-                            <span class="square success">"Avocado"</span>
-                            <strong>.success</strong>
-                        </div>
-                    </div>
+                    
+                    <h4 class="small">anchors</h4>
+                    <a href="#" class="btn btn-default" title="default button">default</a>
+                    <a href="#" class="btn btn-primary" title="primary button">primary</a>
+                    <a href="#" class="btn btn-secondary" title="secondary button">secondary</a>
+                    <a href="#" class="btn btn-info" title="info button">info</a>
+                    <a href="#" class="btn btn-success" title="success button">success</a>
+
+                    <h4 class="small">buttons</h4>
+                    <button class="btn btn-default">default</button>
+                    <button class="btn btn-primary">primary</button>
+                    <button class="btn btn-secondary">secondary</button>
+                    <button class="btn btn-info">info</button>
+                    <button class="btn btn-success">success</button>
+
+                    <hr>
+
+                    <h4 class="small">Action Pill</h4>
+                    <a href="#" title="helloworld" class="action-pill btn-block btn-default"><i class="fa fa-chevron-down"></i> scroll down <i class="fa fa-chevron-down"></i></a>
+                    <a href="#" title="helloworld" class="action-pill btn-block btn-primary"><i class="fa fa-arrow-right"></i> continue</a>
+                    <a href="#" title="helloworld" class="action-pill btn-block btn-secondary"><i class="fa fa-cloud-upload"></i> upload files</a>
+                    <a href="#" title="helloworld" class="action-pill btn-block btn-info"><i class="fa fa-refresh"></i> error occured</a>
+                    <a href="#" title="helloworld" class="action-pill btn-block btn-success"><i class="fa fa-tree"></i> forest maps</a>
+
+                    <h4 class="small">Action Buttons</h4>
+                    <p>These are meant for special actions that reside on <a href="components.html#cards" title="View Cards">cards</a>.</p>
+                    <a href="#" title="helloworld" class="action-bub btn-default"><i class="fa fa-reply"></i></a>
+                    <a href="#" title="helloworld" class="action-bub btn-primary"><i class="fa fa-camera"></i></a>
+                    <a href="#" title="helloworld" class="action-bub btn-secondary"><i class="fa fa-home"></i></a>
+                    <a href="#" title="helloworld" class="action-bub btn-info"><i class="fa fa-map"></i></a>
+                    <a href="#" title="helloworld" class="action-bub btn-success"><i class="fa fa-tree"></i></a>
+
                 </div>
                 <div class="grid-4">
-                    <h1>Helper classes</h1>
-                    <p>GumDrop supports responsive images by using the "img-responsive" class within your "img" tags. Resize the window to see it in action.</p>
-                    <img src="https://thedogwhispererofmn.files.wordpress.com/2013/02/boxer-puppy.jpg" class="img-responsive" alt="responsive image demo"/>
+                    <h1>Button Helpers</h1>
+                    <p>You can set buttons or anchors to be disabled, they will not allow the user to click on them and will turn slightly opaque.</p>
+                    <a href="#" class="btn disabled btn-primary" title="disabled button">disabled button</a>
+                    <p>Buttons and Action Pills can be set to fill the entire view of the container it resides in using "btn-block". Resize your window on desktop; phones automatically show as block.</p>
+                    <a href="#" class="btn btn-primary btn-block" title="block button">block button</a>
+                    <p>Like "btn-block", Full block buttons allow you to have buttons that always fill their residing container.</p>
+                    <a href="#" class="btn btn-primary btn-fblock" title="block button">full-block button</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="decorative-spacer"></div>
+
+    <section class="default section-spacer">
+        <div class="container">
+            <div class="row">
+                <div class="grid-8">
+                    <h1>Inputs</h1>
+                    <p>These are all the input components availale for use in Gumdrop.</p>
+
+                    <form action="#">
+                        <div class="form-group">
+                            <label>First name:</label>
+                            <br>
+                            <input class="form-control" type="text" placeholder="John" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <br>
+                            <input class="form-control" type="email" placeholder="johnsmith@outlook.com" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Message:</label>
+                            <br>
+                            <textarea class="form-control" type="text" placeholder="This is a textarea..." name="firstname"></textarea>
+                        </div>
+
+                        <fieldset>
+                            <legend id="title5" class="desc">Select a Choice</legend>
+
+                            <div class="form-group">
+                                <input name="exForm" type="radio" value="First Choice" checked="checked">
+                                <label>First Choice</label>
+                            </div>
+                            <div class="form-group">
+                                <input name="exForm" type="radio" value="Second Choice">
+                                <label>Second Choice</label>
+                            </div>
+                            <div class="form-group">
+                                <input name="exForm" type="radio" value="Third Choice">
+                                <label>Third Choice</label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend id="title6" class="desc">Check All That Apply</legend>
+
+                            <div class="form-group">
+                                <input name="exForm1" type="checkbox" value="First Choice">
+                                <label for="exForm1">First Choice</label>
+                            </div>
+                            <div class="form-group">
+                                <input name="exForm2" type="checkbox" value="Second Choice">
+                                <label for="exForm2">Second Choice</label>
+                            </div>
+                            <div class="form-group">
+                                <input name="exForm3" type="checkbox" value="Third Choice">
+                                <label for="exForm3">Third Choice</label>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-group">
+                        <label for="Field106">Select a Choice</label>
+                        <select class="form-control">
+                            <option value="First Choice">First Choice</option>
+                            <option value="Second Choice">Second Choice</option>
+                            <option value="Third Choice">Third Choice</option>
+                        </select>
+                        </div>
+
+                        <div class="btn-group">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <input class="btn btn-default" type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+                <div class="grid-4">
+                    <div class="card info">
+                        <div class="content">
+                            <h4>Inclusive Forms</h4>
+                            <p>Be sure to include necessary labels and input names so that your web forms are accessible to screen readers and other assistive technologies.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

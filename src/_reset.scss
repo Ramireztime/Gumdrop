@@ -89,6 +89,7 @@ img { /* Allow images to be responsive, but only scale up to 100% of their aspec
     pointer-events: none;
     opacity: 0.80;
     filter: grayscale(3);
+    z-index: 1;
 }
 
 .container { /* Centers and adds left/right padding to container class */
