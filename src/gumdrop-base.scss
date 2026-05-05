@@ -1,5 +1,5 @@
 /*  
-GUMDROP FRAMEWORK VERSION 4.0 - 2016
+GUMDROP FRAMEWORK VERSION 4.0 - 2016-2026
 CREATED BY ANGEL RAMIREZ
 
 THIS FRAMEWORK IS FREE TO USE WITHOUT PRIOR PERMISSION (REFER TO LICENSE FOUND ON GITHUB FOR ADDITIONAL INFORMATION).
@@ -14,28 +14,27 @@ AND ALL OTHER MEDIA QUERIES GO INTO "_RESPONSIVE" (THESE ARE FOR TABLETS, LAPTOP
 */
 //
 //PARTIAL IMPORTS
-@import 'fonts';
-@import 'variables'; // This contains all the colors and "default" values found in throughout GumDrop
-@import 'reset'; // This is the new reset stylesheet - also includes Google Fonts and Font Awesome
+@use 'fonts';
+@use 'reset';
 //
 // BEGIN FRAMEWORK
 /* This contains typography and padding for various html tags */
-@import 'base';
+@use 'base';
 //
 /* This contains styles, typography, and padding for GumDrop buttons */
-@import 'buttons';
+@use 'buttons';
 //
 /* This is the grid for GumDrop */
-@import 'grid';
+@use 'grid';
 //
 /* This contains "default" navbar styles (now uses .nav class) */
-@import 'navbar';
+@use 'navbar';
 //
 /* This contains styles, typography, and padding for GumDrop cards */
-@import 'cards';
+@use 'cards';
 //
 /* This contains styles, typography, and padding for GumDrop forms and inputs */
-@import 'forms';
+@use 'forms';
 //
 /* This contains all responsive code for all GumDrop components */
-@import 'responsive';
+@use 'responsive';

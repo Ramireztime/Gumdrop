@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 .card {
     /* Base Card */
     box-shadow: $drop-shadow;
